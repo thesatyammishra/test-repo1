@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                 credentialsId: 'be4829e4-a78c-4a67-a3d0-56e8c1f2c3f4',
                 url: 'https://github.com/thesatyammishra/test-repo1.git'
                 }
