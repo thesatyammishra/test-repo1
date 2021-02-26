@@ -45,7 +45,7 @@ pipeline {
         
          stage ('Deploy War File') {
                  steps {
-                   sh "cp /root/.jenkins/workspace/game-of-life/gameoflife-web/target/gameoflife.war /home/ec2-user/apache-tomcat-8.5.61/webapps/"
+                   sh "cp /root/.jenkins/workspace/gamesoflife/gameoflife-web/target/gameoflife.war /home/ec2-user/apache-tomcat-8.5.61/webapps/"
                     }
                 }
 	 
